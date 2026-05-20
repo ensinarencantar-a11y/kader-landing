@@ -263,7 +263,7 @@ export default function App() {
                 <div className="absolute inset-0 bg-gradient-to-r from-[#F7F6F2]/45 via-transparent to-transparent" />
               </div>
 
-              <div className="absolute bottom-[-70px] left-1/2 z-30 w-[82%] -translate-x-1/2 rounded-[30px] border border-white bg-[#071B66] p-6 shadow-2xl lg:bottom-8 lg:right-[-30px] lg:left-auto lg:w-[360px] lg:translate-x-0">
+              <div className="absolute bottom-[-45px] right-[-8px] z-30 w-[74%] rounded-[26px] border border-white bg-[#071B66] p-5 shadow-2xl lg:bottom-8 lg:right-[-30px] lg:w-[360px]">
                 <div className="space-y-4">
                   {[
                     

@@ -263,7 +263,7 @@ export default function App() {
                 <div className="absolute inset-0 bg-gradient-to-r from-[#F7F6F2]/45 via-transparent to-transparent" />
               </div>
 
-              <div className="absolute bottom-[-45px] right-[-8px] z-30 w-[74%] rounded-[26px] border border-white bg-[#071B66] p-5 shadow-2xl lg:bottom-8 lg:right-[-30px] lg:w-[360px]">
+              <div className="absolute bottom-[-64px] right-[-10px] z-30 w-[68%] rounded-[24px] border border-white bg-[#071B66] p-4 shadow-2xl lg:bottom-8 lg:right-[-30px] lg:w-[360px] lg:p-6">
                 <div className="space-y-4">
                   {[
                     
@@ -273,13 +273,17 @@ export default function App() {
   "Tudo organizado no celular",
 
                   ].map((item) => (
-                    <div key={item} className="flex items-center gap-3 text-sm font-semibold text-white">
-                      <div className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#00D46A] shadow-[0_8px_18px_rgba(0,212,106,0.35)]">
-                        <Check size={15} />
-                      </div>
-                      <span>{item}</span>
-                    </div>
-                  ))}
+  <div
+    key={item}
+    className="flex items-center gap-3 text-xs font-semibold leading-snug text-white lg:text-sm"
+  >
+    <div className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#00D46A] text-white">
+      <Check size={15} />
+    </div>
+
+    <span>{item}</span>
+  </div>
+))}
                 </div>
               </div>
             </div>

@@ -154,7 +154,7 @@ export default function App() {
 
           <a
             href={TESTAR_GRATIS_LINK}
-            className="flex rounded-2xl bg-[#313A4A] px-6 py-4 font-semibold text-white shadow-lg hover:bg-[#252C39] transition-all duration-300"
+            className="hidden md:flex rounded-2xl bg-[#313A4A] px-6 py-4 font-semibold text-white shadow-lg hover:bg-[#27303f] transition"
           >
             Testar grátis agora
           </a>

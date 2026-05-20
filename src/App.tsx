@@ -18,8 +18,9 @@ import {
   Check,
 } from "lucide-react";
 
-const WHATSAPP_LINK = "https://wa.me/5500000000000";
-const TESTAR_GRATIS_LINK = "#";
+const WHATSAPP_LINK =
+  "https://wa.me/556194408208?text=Olá!%20Vi%20o%20Kader%20e%20quero%20conhecer%20melhor%20a%20plataforma.";
+const TESTAR_GRATIS_LINK = "https://app.kader.com.br";
 
 const realityCards = [
   {
@@ -154,6 +155,8 @@ export default function App() {
 
           <a
             href={TESTAR_GRATIS_LINK}
+            target="_blank"
+            rel="noopener noreferrer"
             className="hidden md:flex rounded-2xl bg-[#313A4A] px-6 py-4 font-semibold text-white shadow-lg hover:bg-[#27303f] transition"
           >
             Testar grátis agora
@@ -177,6 +180,8 @@ export default function App() {
             <a href="#duvidas">Dúvidas</a>
             <a
               href={TESTAR_GRATIS_LINK}
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-2 rounded-2xl bg-[#313A4A] py-4 text-center font-semibold text-white"
             >
               Testar grátis agora
@@ -219,6 +224,8 @@ export default function App() {
               <div className="mt-6 flex flex-col gap-4 sm:flex-row">
                 <a
                   href={TESTAR_GRATIS_LINK}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 rounded-2xl bg-[#313A4A] px-8 py-5 text-lg font-semibold text-white shadow-xl shadow-[#313A4A]/10 transition-all hover:scale-[1.02] hover:bg-[#252C39]"
                 >
                   Testar grátis agora
@@ -226,12 +233,13 @@ export default function App() {
                 </a>
 
                 <a
-                  href={WHATSAPP_LINK}
-                  className="flex items-center justify-center gap-3 rounded-2xl border border-slate-200 bg-white px-8 py-5 text-lg font-semibold shadow-sm transition-all hover:scale-[1.02] hover:border-green-300"
-                >
-                  <MessageCircle className="text-green-600" />
-                  Falar no WhatsApp
-                </a>
+  href={WHATSAPP_LINK}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center justify-center gap-2 rounded-2xl border border-slate-200 bg-white px-8 py-5 font-semibold text-[#313A4A] shadow-md"
+>
+  Falar no WhatsApp
+</a>
               </div>
 
               <div className="mt-6 grid grid-cols-2 gap-2 md:grid-cols-5">
@@ -810,6 +818,8 @@ export default function App() {
               </ul>
               <a
                 href={TESTAR_GRATIS_LINK}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="mt-8 block rounded-2xl border border-slate-300 py-4 text-center font-semibold"
               >
                 Começar grátis
@@ -840,6 +850,8 @@ export default function App() {
               </ul>
               <a
                 href={TESTAR_GRATIS_LINK}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="mt-8 block rounded-2xl bg-green-600 py-4 text-center font-semibold text-white"
               >
                 Começar agora
@@ -873,6 +885,8 @@ export default function App() {
 
         <a
           href={TESTAR_GRATIS_LINK}
+          target="_blank"
+          rel="noopener noreferrer"
           className="rounded-2xl bg-green-500 px-8 py-4 font-bold text-white"
         >
           Testar grátis
@@ -880,6 +894,8 @@ export default function App() {
 
         <a
           href={WHATSAPP_LINK}
+          target="_blank"
+          rel="noopener noreferrer"
           className="rounded-2xl border border-slate-600 px-8 py-4 font-bold text-white"
         >
           Falar no WhatsApp

@@ -945,7 +945,7 @@ export default function App() {
       </div>
 
       <a
-  href="https://instagram.com/kaderapp"
+  href="https://instagram.com/kader_app"
   target="_blank"
   rel="noopener noreferrer"
   className="flex items-center gap-4 rounded-2xl bg-white px-6 py-4 text-slate-700"
